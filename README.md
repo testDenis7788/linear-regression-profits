@@ -14,15 +14,14 @@ We have a dataset with:
 
 Our goal is to learn parameters **w** (slope) and **b** (intercept) of a linear model:
 
-\[
+$$
 f(x) = wx + b
-\]
+$$
 
-To minimize the cost:
+$$
+J(w, b) = \frac{1}{2m} \sum_{i=1}^{m} (f(x_i) - y_i)^2
+$$
 
-\[
-J(w, b) = \frac{1}{2m}\sum_{i=1}^{m}(f(x_i) - y_i)^2
-\]
 
 ---
 
@@ -35,5 +34,4 @@ J(w, b) = \frac{1}{2m}\sum_{i=1}^{m}(f(x_i) - y_i)^2
 
 ---
 
-## 🚀 Example Output
 
