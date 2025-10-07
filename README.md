@@ -34,5 +34,4 @@ $$
 
 ---
 
-## 🚀 Example Output
 
